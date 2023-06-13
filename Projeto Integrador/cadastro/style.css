@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #faf5e3;
+}
+.header {
+  margin-left: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+.title-header {
+  font-size: 50px;
+  font-weight: 400;
+
+  text-align: center;
+  margin-top: 30px;
+}
+.btns-header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+}
+.btn-header {
+  background-color: #95c5b7;
+  color: #faf5e3;
+  width: 180px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btns-header button:hover{
+     background-color: #63867c;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+#nav-item {
+  background-color: #faf5e3;
+  border: none;
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.jeito {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+
+.jaAcount{
+    padding-top: 11px;
+    font-size: 23px;
+
+}
+
+.cadCli{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    font-size: 65px;
+    font-weight: 800;
+}
+
+.cadastro input{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 750px;
+    background-color: #faf5e3;
+    
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.49);;
+}
+
+#name::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+#cpf::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+#datNasc::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+#tel::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+.cadastro{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#name{
+  margin: 0;
+  margin-top: 90px;
+  font-size: 28px;
+  
+}
+
+#cpf{
+  margin: 0;
+  margin-top: 50px;
+  font-size: 28px;
+  
+}
+
+#datNasc{
+  margin: 0;
+  margin-top: 50px;
+  font-size: 28px;
+  
+}
+
+#tel{
+  margin: 0;
+  margin-top: 50px;
+  
+  font-size: 28px;
+}
+
+#btn-avanco{
+  background-color: #80B4A5;
+  color: #faf5e3;
+  width: 220px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  
+  
+}
+
+#btn-avanco:hover{
+  transition: 0.2s ease-in-out;
+  background-color: #538375;
+}
+
+
+.avanco{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-top: 110px;
+}
+
+.cadCom{
+  font-size: 26px;
+  color: #072B29;
+
+}
+
+.google{
+  border-radius: 50% ;
+  width: 55px;
+  height: 55px;
+  background-color: #eeeeee;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.facebook{
+  border-radius: 50% ;
+  width: 55px;
+  height: 55px;
+  background-color: #eeeeee;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.goo{
+  width: 40px;
+  height: 40px;
+}
+
+.face{
+  width: 40px;
+  height: 40px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.ouCad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  margin-top: 30px;
+}
+
+footer{
+  height: 270px;
+  width: 100vw;
+  background-color: #EFB25F;
+  margin: 0;
+  margin-top: 70px;
+  
+}
+
+.sdsj{
+  font-size: 45px;
+}
+
+.copy{
+  font-size: 19px;
+}
+
+.name{
+  height: 270px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.insta img{
+  width: 35px;
+  height: 35px;
+}
+
+.instagram{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.insta{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  
+
+}
+
+.book img{
+  width: 35px;
+  height: 35px;
+}
+
+.fac{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.book{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center; 
+   gap: 20px;
+   margin: 0;
+   margin-top: 15px;
+
+}
+
+.email img{
+  width: 40px;
+  height: 40px;
+}
+
+.mail{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.email{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+   margin-top: 15px;
+
+}
+
+
+.contacts{
+  height: 190px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-left: 3px solid #000000;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#email::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+#senha::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+#confSenha::-webkit-input-placeholder{
+  color: black;
+  font-size: 28px;
+
+}
+
+#email{
+  margin: 0;
+  margin-top: 90px;
+  font-size: 28px;
+  
+}
+
+#email::after{
+  margin: 0;
+  margin-top: 90px;
+  font-size: 28px;
+  
+}
+
+#senha{
+  margin: 0;
+  margin-top: 50px;
+  font-size: 28px;
+  
+}
+
+#confSenha{
+  margin: 0;
+  margin-top: 50px;
+  font-size: 28px;
+  
+}
+
+.copy{
+  margin: 0;
+  margin-top: 5px;
+}
+
+.avanco a{
+  text-decoration: none;
+}
+
+.inputs span{
+  color: red;
+  font-size: 12px;
+}
+
+#btn-ava02{
+  background-color: #80B4A5;
+  color: #faf5e3;
+  width: 220px;
+  height: 50px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#btn-ava02:hover{
+  transition: 0.2s ease-in-out;
+  background-color: #538375;
+}
